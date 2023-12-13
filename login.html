@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/login.css">
+</head>
+<body>
+    <header>
+        <form action="#" method="get" id="language">
+            <fieldset>
+                <legend class="skip"></legend>
+                <select name="lang" id="lang">
+                    <option value="korean">한국어</option>
+                    <option value="english">English</option>
+                </select>
+            </form>
+            <h1><a href="./index.html"><img src="./images/Naver_Logotype.svg.png" alt="네이버"></a></h1>
+            </fieldset>
+    </header>
+    <main>
+        <div class="login">
+            <form action="#" method="post" name="loginFrm" id="loginFrm">
+                <fieldset>
+                    <legend class="skip"></legend>
+                    <input type="text" placeholder="아이디" name="id">
+                    <label for="id"></label>
+                    <input type="password" placeholder="비밀번호" name="pwd">
+                    <label for="pwd"></label>
+                    <button type="submit" name="loginBtn">로그인</button>
+                    <input type="checkbox" name="chk" value="chk">
+                    <label for="chk">로그인 상태 유지</label>
+                    <a href="#">IP보안<span>ON</span></a>
+                    <a href="#">일회용 로그인</a>
+                </fieldset>
+            </form>
+        </div>
+        <div class="idPwdFind">
+            <a href="#">아이디 찾기</a>
+            <a href="#">비밀번호 찾기</a>
+            <a href="#">회원가입</a>
+        </div>
+    </main>
+    <footer>
+        <div class="top">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">책임의 한계와 법적고지</a>
+            <a href="#">회원정보 고객센터</a>
+        </div>
+        <address>
+            NAVER Copyright © NAVER Corp. All Rights Reserved.
+        </address>
+    </footer>
+</body>
+</html>
