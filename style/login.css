@@ -1,12 +1,35 @@
-header {}
-header #language {}
-header #language fieldset {}
-header #language fieldset #lang {}
-header #language fieldset h1 {}
-header #language fieldset h1 a {}
-header #language fieldset h1 a img {}
-main {}
+header {
+    text-align: right;
+}
+header #lang {
+    width: 97px; height: 33px;
+}
+header #lang option {}
+header h1 {
+    text-align: center;
+}
+header h1 a {}
+header h1 a img {
+    width: 237px;
+}
+main {
+    width: 460px;
+    margin: 0 auto;
+}
 main .login {}
 main .login #loginFrm {}
-main .login #loginFrm fieldset {}
-main .login #loginFrm fieldset  {}
+main .login #loginFrm fieldset {
+    text-align: center;
+}
+main .login #loginFrm fieldset p {}
+main .login #loginFrm fieldset p .id {width: 460px; height: 61px; margin-bottom: 10px;}
+main .login #loginFrm fieldset p .pwd {width: 460px; height: 61px; margin-bottom: 10px;}
+main .login #loginFrm fieldset p .loginBtn {width: 460px; height: 61px; margin-bottom: 10px;}
+main .login #loginFrm fieldset .btm {
+    display: flex; justify-content: space-between;
+}
+main .login #loginFrm fieldset .btm .left {}
+main .login #loginFrm fieldset .right {}
+main .login #loginFrm fieldset .right .btm a {}
+main .login #loginFrm fieldset .right .btm a span {color: #03c75a; font-weight: 600;}
+/* 460 61 */

@@ -9,31 +9,29 @@
 </head>
 <body>
     <header>
-        <form action="#" method="get" id="language">
-            <fieldset>
-                <legend class="skip"></legend>
-                <select name="lang" id="lang">
-                    <option value="korean">한국어</option>
-                    <option value="english">English</option>
-                </select>
-            </form>
-            <h1><a href="./index.html"><img src="./images/Naver_Logotype.svg.png" alt="네이버"></a></h1>
-            </fieldset>
+        <select name="lang" id="lang">
+            <option value="korean">한국어</option>
+            <option value="english">English</option>
+        </select>
+    <h1><a href="./index.html"><img src="./images/Naver_Logotype.svg.png" alt="네이버"></a></h1>
     </header>
     <main>
         <div class="login">
             <form action="#" method="post" name="loginFrm" id="loginFrm">
                 <fieldset>
                     <legend class="skip"></legend>
-                    <input type="text" placeholder="아이디" name="id">
-                    <label for="id"></label>
-                    <input type="password" placeholder="비밀번호" name="pwd">
-                    <label for="pwd"></label>
-                    <button type="submit" name="loginBtn">로그인</button>
-                    <input type="checkbox" name="chk" value="chk">
-                    <label for="chk">로그인 상태 유지</label>
-                    <a href="#">IP보안<span>ON</span></a>
-                    <a href="#">일회용 로그인</a>
+                    <p><input type="text" placeholder="아이디" name="id" class="id"></p>
+                    <p><input type="password" placeholder="비밀번호" name="pwd" class="pwd"></p>
+                    <p><button type="submit" name="loginBtn" class="loginBtn">로그인</button></p>
+                    <div class="btm">
+                        <p class="left">
+                            <label><input type="checkbox" name="chk" value="chk" class="chk">로그인 상태 유지</label>
+                        </p>
+                        <div class="right">
+                            <a href="#">IP보안<span>ON</span></a>
+                            <a href="#">| 일회용 로그인</a>
+                        </div>
+                    </div>
                 </fieldset>
             </form>
         </div>
