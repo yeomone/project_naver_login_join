@@ -26,7 +26,7 @@ main #joinFrm fieldset dl .phoneNum {
 }
 main #joinFrm fieldset dl .phoneNum > input {}
 main #joinFrm fieldset dl .phoneNum > a {
-    font-size: 0.75rem; height: 53px;
+    font-size: 0.75rem; padding: 17px 0;
 }
 main #joinFrm fieldset dl dd input, main #joinFrm fieldset dl dd select {border: 1px solid #eee; width: 100%; height: 53px; padding: 10px;}
 main #joinFrm fieldset dl dd input {}

@@ -38,10 +38,12 @@ main .joinFrm fieldset .submitBtn {
     margin-bottom: 20px;
 }
 main .joinFrm fieldset .submitBtn button {
-    border: none; width: calc(100% / 2 - 5px); height: 55px; color: #fff;
+    border: none; width: calc(100% / 2 - 5px); padding: 19px 0; color: #fff;
 }
 main .joinFrm fieldset .submitBtn #reset {background-color: #08a600;}
-main .joinFrm fieldset .submitBtn #submit {background-color: #8e8e8e;}
+main .joinFrm fieldset .submitBtn a {
+    background-color: #8e8e8e; border: none; width: calc(100% / 2 - 5px); padding: 19px 0; color: #fff; text-align: center;
+}
 main .joinFrm fieldset .btm {
     font-size: 0.75rem; text-align: center;
 }
